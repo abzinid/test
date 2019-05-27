@@ -14,8 +14,5 @@ if(window.location.search == "?go=dropbox")
 {
 window.location.assign("https://www.dropbox.com");
 }
-else 
-{
-window.location.assign("https://www.dropbox.com");
-}
+else {}
 
