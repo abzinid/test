@@ -14,8 +14,7 @@ if(window.location.search == "?go=dropbox")
 {
 window.location.assign("https://www.dropbox.com");
 }
-else {
-//history.back();
-  updateQueryStringParam( 'myparam', null );
+else if (location.href.includes('?')) { 
+    history.pushState({}, null, location.href.split('?')[0]); 
 }
 
