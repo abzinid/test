@@ -16,6 +16,6 @@ window.location.assign("https://www.dropbox.com");
 }
 else {
 //history.back();
-  myWindow.close(); 
+  newWindow(this); return false;
 }
 
