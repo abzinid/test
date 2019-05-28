@@ -15,6 +15,7 @@ if(window.location.search == "?go=dropbox")
 window.location.assign("https://www.dropbox.com");
 }
 else {
-history.back();
+//history.back();
+  myWindow.close(); 
 }
 
