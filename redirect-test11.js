@@ -14,5 +14,7 @@ if(window.location.search == "?go=dropbox")
 {
 window.location.assign("https://www.dropbox.com");
 }
-else {}
+else {
+  window.location.hostname == redirect
+}
 
