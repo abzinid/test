@@ -26,11 +26,12 @@ window.location.assign("https://www.dropbox.com");
   /*else  if (value === 8) {
        clearInterval(intervalId); */     
     }
-else if (location.href.includes('?')) { 
-    history.pushState({}, null, location.href.split('?')[0]); 
-    location.reload(true);
+else  location.reload(true);
     clearTimeout(timer);
     
+/* if (location.href.includes('?')) { 
+    history.pushState({}, null, location.href.split('?')[0]); */
+  
 /* else if (location.href.includes('?')) { 
     history.pushState({}, null, location.href.split('?')[0]); */
    
