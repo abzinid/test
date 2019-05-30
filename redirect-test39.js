@@ -28,8 +28,8 @@ window.location.assign("https://www.dropbox.com");
     history.pushState({}, null, location.href.split('?')[0]); */
 else if (location.href.includes('?')) { 
     history.pushState({}, null, location.href.split('?')[0]);
-    function hideme(){  
+    /*function hideme(){  
         var span = document.getElementsById("timer");
-        span.parentNode.removeChild(span);
+        span.parentNode.removeChild(span);*/
 }
 
