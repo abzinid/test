@@ -23,12 +23,17 @@ if(window.location.search == "/2019/05/test.html?go=dropbox")
 {
 window.location.assign("https://www.dropbox.com");
 }
-
-/*else if (location.href.includes('?')) { 
-    history.pushState({}, null, location.href.split('?')[0]); */
+  /*else  if (value === 8) {
+       clearInterval(intervalId); */     
+    }
 else if (location.href.includes('?')) { 
-    history.pushState({}, null, location.href.split('?'));
-    return false;
+    history.pushState({}, null, location.href.split('?')[0]); 
+    location.reload(true);
+    clearTimeout(timer);
+    
+/* else if (location.href.includes('?')) { 
+    history.pushState({}, null, location.href.split('?')[0]); */
+   
     /*location.reload(true);*/
     /*function hideme(){  
         var span = document.getElementsById("timer");
